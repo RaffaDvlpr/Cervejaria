@@ -1,0 +1,98 @@
+/*
+font-family: 'Days One', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+.navbar-brand{
+    color: white;
+    font-family: 'Days One', sans-serif;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+header{
+    background-color: #7D1517;
+}
+
+header .nav .nav-link{
+    font-family: 'Days One', sans-serif;
+}
+
+#sobre .section-title,
+#sobre p,
+#lanches .section-title,
+#lanches p,
+#lanches h5,
+.nav .nav-link:hover,
+.nav .nav-link:focus
+{
+    color: white;
+}
+
+.nav .nav-link.active{
+    background-color: white;
+    color: #7D1517;
+}
+
+.section-title{
+    font-family: 'Days One', sans-serif;
+    font-weight: 700;
+}
+
+#sobre, #lanches{
+    background-color: #4A1B1C;
+}
+
+.nav-link{
+    color: white;
+}
+
+.social-links li{
+    display: inline;
+    text-decoration: none;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+textarea{
+    resize: none;
+}
+
+.colored-text{
+    color: #7D1517;
+}
+
+.btn{
+    background-color: #7D1517;
+    color: white;
+    border: solid 1px #7D1517;
+}
+
+#delivery .btn:hover{
+    background-color: #7D1517;
+    color: white;
+    border: solid 1px white;
+}
+
+.colored-text2{
+    color: #212529;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+    #cervejas p, #lanches p{
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+    .carousel-item img{
+        height: 420px;
+    }
+}
